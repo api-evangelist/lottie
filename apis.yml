@@ -1,8 +1,24 @@
 aid: lottie
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lottie.png
 name: Lottie
-description: 'Lottie is a company surfaced as a portfolio company of accel, general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Lottie is a UK-based later-life care marketplace that helps families and retirees find
+  and fund the country''s best care homes, home care providers, and retirement living communities. The
+  free consumer service matches people with regulated care providers, publishes availability and pricing,
+  and offers guidance from care experts alongside a large library of funding and care guides. Backed by
+  Accel and General Catalyst, Lottie serves tens of thousands of families monthly across England, Scotland,
+  and Wales. As of this enrichment pass the company operates a consumer-facing web platform only and
+  publishes no public developer API, OpenAPI specification, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/lottie/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Care Homes
+- Elderly Care
+- Retirement Living
+- Home Care
+- Marketplace
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/lottie-domain-security.yml
 - type: Website
   url: https://lottie.org/
+- type: Blog
+  url: https://lottie.org/guides-insight/
+- type: PrivacyPolicy
+  url: https://lottie.org/privacy-policy/
+- type: TermsOfService
+  url: https://lottie.org/terms-of-platform-use/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
